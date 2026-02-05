@@ -1,0 +1,2007 @@
+- id: '1741554606451'
+  name: Downstairs Evening
+  entities:
+    light.plant_light:
+      supported_color_modes:
+      - onoff
+      color_mode: onoff
+      friendly_name: Plant Light
+      supported_features: 0
+      state: 'on'
+    light.h607c_1e92:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Afternoon
+      - Alternate
+      - Aurora
+      - Berry
+      - Birthday
+      - Blue Sky
+      - Blue Sky & Grasslands
+      - Breathe
+      - Candlelight
+      - Candy
+      - Care
+      - Carnival
+      - Cherry blossoms
+      - Christmas
+      - Christmas Bell
+      - Christmas Tree
+      - Cornfield
+      - Crossing
+      - Dance Party
+      - Dancing
+      - Dense fog
+      - Desert
+      - Dreamland
+      - Dreamlike
+      - Dripping
+      - Earth
+      - Easter
+      - Father's Day
+      - Fire
+      - Firefly
+      - Fireworks
+      - Fish tank
+      - Flow
+      - Flower Field
+      - Forest
+      - Garden
+      - Glacier
+      - Gleam
+      - Gradient
+      - Graffiti
+      - Graveyard
+      - Halloween
+      - Happy
+      - Intersection
+      - Jupiter
+      - Karst Cave
+      - Lake
+      - Lava
+      - Little Train
+      - Marbles
+      - Mars
+      - Mavericks
+      - Mercury
+      - MFFL
+      - Milky Way
+      - Moonlit Night
+      - Morning
+      - Mother's Day
+      - Movie
+      - 'Music: Alternate'
+      - 'Music: ColorPainting'
+      - 'Music: FallingSand'
+      - 'Music: Hopping'
+      - 'Music: Separation'
+      - 'Music: Spectrum'
+      - Mysterious
+      - New Years
+      - Night
+      - Night Light
+      - Ocean
+      - Peach Orchard
+      - Profound
+      - Quiet
+      - Rainbow
+      - Raindrops in Mountains
+      - Raining
+      - Reading
+      - Ripple
+      - River
+      - Romantic
+      - Rustling leaves
+      - Saint Patrick's Day
+      - Saturn
+      - Snowing
+      - Soothing
+      - Split
+      - Sports
+      - Spring Wind
+      - Sprinkle
+      - Starry Sky
+      - Strike
+      - Sunrise
+      - Sunset
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Tenderness
+      - Thanksgiving
+      - Thunderstorm
+      - Twilight
+      - Uranus
+      - Valentine's Day
+      - Warm
+      - Wave
+      - White Light
+      - Work
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 4048
+      color_temp: 247
+      hs_color:
+      - 26.792
+      - 34.008
+      rgb_color:
+      - 255
+      - 207
+      - 168
+      xy_color:
+      - 0.417
+      - 0.364
+      icon: mdi:light-bulb
+      friendly_name: Stick Light
+      supported_features: 44
+      state: 'on'
+    switch.stick_light_power_switch:
+      friendly_name: Stick Light Power Switch
+      state: 'on'
+    switch.stick_light_gradient_toggle:
+      friendly_name: Stick Light Gradient Toggle
+      state: unknown
+    switch.stick_light_dream_view_toggle:
+      friendly_name: Stick Light Dream View Toggle
+      state: unknown
+    light.stick_light_segment_001:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 001
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_002:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 002
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_003:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 003
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_004:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 004
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_005:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 005
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_006:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 006
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_007:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 007
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_008:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 008
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_009:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 009
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_010:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 010
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_011:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 011
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_012:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 012
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_013:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 013
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_014:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 014
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_015:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 015
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_016:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 016
+      supported_features: 44
+      state: 'off'
+    light.dining_lamp_1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 4048
+      color_temp: 247
+      hs_color:
+      - 26.792
+      - 34.008
+      rgb_color:
+      - 255
+      - 207
+      - 168
+      xy_color:
+      - 0.417
+      - 0.364
+      friendly_name: Dining Lamp 1
+      supported_features: 44
+      state: 'on'
+    switch.dining_lamp_1_power_switch:
+      friendly_name: Dining Lamp 1 Power Switch
+      state: 'on'
+    light.dining_lamp_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 4048
+      color_temp: 247
+      hs_color:
+      - 26.792
+      - 34.008
+      rgb_color:
+      - 255
+      - 207
+      - 168
+      xy_color:
+      - 0.417
+      - 0.364
+      friendly_name: Dining Lamp 2
+      supported_features: 44
+      state: 'on'
+    switch.dining_lamp_2_power_switch:
+      friendly_name: Dining Lamp 2 Power Switch
+      state: 'on'
+    light.dining_lamp_3_1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 4048
+      color_temp: 247
+      hs_color:
+      - 26.792
+      - 34.008
+      rgb_color:
+      - 255
+      - 207
+      - 168
+      xy_color:
+      - 0.417
+      - 0.364
+      friendly_name: Dining Lamp 3.1
+      supported_features: 44
+      state: 'on'
+    switch.dining_lamp_3_1_power_switch:
+      friendly_name: Dining Lamp 3.1 Power Switch
+      state: 'on'
+    switch.smart_plug_reading_lamp:
+      friendly_name: Smart_Plug_Reading_Lamp
+      state: 'on'
+  icon: mdi:lightbulb
+  metadata: {}
+- id: '1742161301244'
+  name: Downstairs Off
+  entities:
+    light.h607c_1e92:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Afternoon
+      - Alternate
+      - Aurora
+      - Berry
+      - Birthday
+      - Blue Sky
+      - Blue Sky & Grasslands
+      - Breathe
+      - Candlelight
+      - Candy
+      - Care
+      - Carnival
+      - Cherry blossoms
+      - Christmas
+      - Christmas Bell
+      - Christmas Tree
+      - Cornfield
+      - Crossing
+      - Dance Party
+      - Dancing
+      - Dense fog
+      - Desert
+      - Dreamland
+      - Dreamlike
+      - Dripping
+      - Earth
+      - Easter
+      - Father's Day
+      - Fire
+      - Firefly
+      - Fireworks
+      - Fish tank
+      - Flow
+      - Flower Field
+      - Forest
+      - Garden
+      - Glacier
+      - Gleam
+      - Gradient
+      - Graffiti
+      - Graveyard
+      - Halloween
+      - Happy
+      - Intersection
+      - Jupiter
+      - Karst Cave
+      - Lake
+      - Lava
+      - Little Train
+      - Marbles
+      - Mars
+      - Mavericks
+      - Mercury
+      - MFFL
+      - Milky Way
+      - Moonlit Night
+      - Morning
+      - Mother's Day
+      - Movie
+      - 'Music: Alternate'
+      - 'Music: ColorPainting'
+      - 'Music: FallingSand'
+      - 'Music: Hopping'
+      - 'Music: Separation'
+      - 'Music: Spectrum'
+      - Mysterious
+      - New Years
+      - Night
+      - Night Light
+      - Ocean
+      - Peach Orchard
+      - Profound
+      - Quiet
+      - Rainbow
+      - Raindrops in Mountains
+      - Raining
+      - Reading
+      - Ripple
+      - River
+      - Romantic
+      - Rustling leaves
+      - Saint Patrick's Day
+      - Saturn
+      - Snowing
+      - Soothing
+      - Split
+      - Sports
+      - Spring Wind
+      - Sprinkle
+      - Starry Sky
+      - Strike
+      - Sunrise
+      - Sunset
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Tenderness
+      - Thanksgiving
+      - Thunderstorm
+      - Twilight
+      - Uranus
+      - Valentine's Day
+      - Warm
+      - Wave
+      - White Light
+      - Work
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      icon: mdi:light-bulb
+      friendly_name: Stick Light
+      supported_features: 44
+      state: 'off'
+    switch.stick_light_power_switch:
+      friendly_name: Stick Light Power Switch
+      state: 'off'
+    switch.stick_light_gradient_toggle:
+      friendly_name: Stick Light Gradient Toggle
+      state: unknown
+    switch.stick_light_dream_view_toggle:
+      friendly_name: Stick Light Dream View Toggle
+      state: unknown
+    light.stick_light_segment_001:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 001
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_002:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 002
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_003:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 003
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_004:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 004
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_005:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 005
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_006:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 006
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_007:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 007
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_008:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 008
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_009:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 009
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_010:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 010
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_011:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 011
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_012:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 012
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_013:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 013
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_014:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 014
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_015:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 015
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_016:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 016
+      supported_features: 44
+      state: 'off'
+    light.plant_light:
+      supported_color_modes:
+      - onoff
+      color_mode:
+      friendly_name: Plant Light
+      supported_features: 0
+      state: 'off'
+    light.couch_lamp:
+      supported_color_modes:
+      - onoff
+      color_mode:
+      friendly_name: Couch Lamp
+      supported_features: 0
+      state: 'off'
+    light.dining_lamp_1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Dining Lamp 1
+      supported_features: 44
+      state: 'off'
+    switch.dining_lamp_1_power_switch:
+      friendly_name: Dining Lamp 1 Power Switch
+      state: 'off'
+    light.dining_lamp_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Dining Lamp 2
+      supported_features: 44
+      state: 'off'
+    switch.dining_lamp_2_power_switch:
+      friendly_name: Dining Lamp 2 Power Switch
+      state: 'off'
+    light.dining_lamp_3_1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Dining Lamp 3.1
+      supported_features: 44
+      state: 'off'
+    switch.dining_lamp_3_1_power_switch:
+      friendly_name: Dining Lamp 3.1 Power Switch
+      state: 'off'
+    switch.smart_plug_reading_lamp:
+      friendly_name: Smart_Plug_Reading_Lamp
+      state: 'off'
+  metadata: {}
+- id: '1742162185174'
+  name: Downstairs Movie
+  entities:
+    light.couch_lamp:
+      supported_color_modes:
+      - onoff
+      color_mode:
+      friendly_name: Couch Lamp
+      supported_features: 0
+      state: 'off'
+    light.h607c_1e92:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Afternoon
+      - Alternate
+      - Aurora
+      - Berry
+      - Birthday
+      - Blue Sky
+      - Blue Sky & Grasslands
+      - Breathe
+      - Candlelight
+      - Candy
+      - Care
+      - Carnival
+      - Cherry blossoms
+      - Christmas
+      - Christmas Bell
+      - Christmas Tree
+      - Cornfield
+      - Crossing
+      - Dance Party
+      - Dancing
+      - Dense fog
+      - Desert
+      - Dreamland
+      - Dreamlike
+      - Dripping
+      - Earth
+      - Easter
+      - Father's Day
+      - Fire
+      - Firefly
+      - Fireworks
+      - Fish tank
+      - Flow
+      - Flower Field
+      - Forest
+      - Garden
+      - Glacier
+      - Gleam
+      - Gradient
+      - Graffiti
+      - Graveyard
+      - Halloween
+      - Happy
+      - Intersection
+      - Jupiter
+      - Karst Cave
+      - Lake
+      - Lava
+      - Little Train
+      - Marbles
+      - Mars
+      - Mavericks
+      - Mercury
+      - MFFL
+      - Milky Way
+      - Moonlit Night
+      - Morning
+      - Mother's Day
+      - Movie
+      - 'Music: Alternate'
+      - 'Music: ColorPainting'
+      - 'Music: FallingSand'
+      - 'Music: Hopping'
+      - 'Music: Separation'
+      - 'Music: Spectrum'
+      - Mysterious
+      - New Years
+      - Night
+      - Night Light
+      - Ocean
+      - Peach Orchard
+      - Profound
+      - Quiet
+      - Rainbow
+      - Raindrops in Mountains
+      - Raining
+      - Reading
+      - Ripple
+      - River
+      - Romantic
+      - Rustling leaves
+      - Saint Patrick's Day
+      - Saturn
+      - Snowing
+      - Soothing
+      - Split
+      - Sports
+      - Spring Wind
+      - Sprinkle
+      - Starry Sky
+      - Strike
+      - Sunrise
+      - Sunset
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Tenderness
+      - Thanksgiving
+      - Thunderstorm
+      - Twilight
+      - Uranus
+      - Valentine's Day
+      - Warm
+      - Wave
+      - White Light
+      - Work
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode: rgb
+      brightness: 13
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 46.25
+      - 18.824
+      rgb_color:
+      - 255
+      - 244
+      - 207
+      xy_color:
+      - 0.361
+      - 0.367
+      icon: mdi:light-bulb
+      friendly_name: Stick Light
+      supported_features: 44
+      state: 'on'
+    switch.stick_light_power_switch:
+      friendly_name: Stick Light Power Switch
+      state: 'on'
+    switch.stick_light_gradient_toggle:
+      friendly_name: Stick Light Gradient Toggle
+      state: unknown
+    switch.stick_light_dream_view_toggle:
+      friendly_name: Stick Light Dream View Toggle
+      state: unknown
+    light.stick_light_segment_001:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 001
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_002:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 002
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_003:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 003
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_004:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 004
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_005:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 005
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_006:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 006
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_007:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 007
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_008:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 008
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_009:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 009
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_010:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 010
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_011:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 011
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_012:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 012
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_013:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 013
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_014:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 014
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_015:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 015
+      supported_features: 44
+      state: 'off'
+    light.stick_light_segment_016:
+      effect_list:
+      supported_color_modes:
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      hs_color:
+      rgb_color:
+      xy_color:
+      assumed_state: true
+      friendly_name: Stick Light Segment 016
+      supported_features: 44
+      state: 'off'
+    light.plant_light:
+      supported_color_modes:
+      - onoff
+      color_mode:
+      friendly_name: Plant Light
+      supported_features: 0
+      state: 'off'
+    light.dining_lamp_1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode: color_temp
+      brightness: 13
+      color_temp_kelvin: 4672
+      color_temp: 214
+      hs_color:
+      - 26.773
+      - 23.891
+      rgb_color:
+      - 255
+      - 221
+      - 194
+      xy_color:
+      - 0.385
+      - 0.354
+      friendly_name: Dining Lamp 1
+      supported_features: 44
+      state: 'on'
+    switch.dining_lamp_1_power_switch:
+      friendly_name: Dining Lamp 1 Power Switch
+      state: 'on'
+    light.dining_lamp_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Dining Lamp 2
+      supported_features: 44
+      state: 'off'
+    switch.dining_lamp_2_power_switch:
+      friendly_name: Dining Lamp 2 Power Switch
+      state: 'off'
+    light.dining_lamp_3_1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      effect_list:
+      - ''
+      - Adventure Game
+      - Asleep
+      - Aurora
+      - Awaken
+      - Business
+      - Candlelight
+      - Candy
+      - Cards Game
+      - Care
+      - Carnival
+      - Cartoon
+      - Christmas
+      - Dance Party
+      - Desert
+      - Dreamland
+      - Dusk
+      - Enthusiastic
+      - Father's Day
+      - Fighting Game
+      - Fire
+      - Flower Field
+      - Forest
+      - Game
+      - Halloween
+      - Happy
+      - Healing
+      - Karst Cave
+      - Longing
+      - Meditation
+      - Mild
+      - Morning
+      - Mother's Day
+      - Movie
+      - Night Light
+      - Party
+      - Profound
+      - Puzzle Game
+      - Quiet
+      - Racing Game
+      - Rainbow
+      - Reading
+      - Relax
+      - Rivalry
+      - River
+      - Romantic
+      - Shooting Game
+      - Sports Game
+      - Starry Sky
+      - Study
+      - Sunset Glow
+      - Sweet
+      - Technology
+      - Thanksgiving
+      - Valentine's Day
+      - Warm
+      - White Light
+      supported_color_modes:
+      - color_temp
+      - rgb
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Dining Lamp 3.1
+      supported_features: 44
+      state: 'off'
+    switch.dining_lamp_3_1_power_switch:
+      friendly_name: Dining Lamp 3.1 Power Switch
+      state: 'off'
+  metadata: {}
+- id: '1742600128367'
+  name: Office On
+  entities:
+    light.wolf_lamp:
+      supported_color_modes:
+      - onoff
+      color_mode: onoff
+      friendly_name: Wolf Lamp
+      supported_features: 0
+      state: 'on'
+    light.office_standing_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6500
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 3366
+      color_temp: 297
+      hs_color:
+      - 27.317
+      - 47.766
+      rgb_color:
+      - 255
+      - 189
+      - 133
+      xy_color:
+      - 0.464
+      - 0.377
+      friendly_name: Office Standing Light
+      supported_features: 0
+      state: 'on'
+    light.office_desk_lamp:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6500
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 3366
+      color_temp: 297
+      hs_color:
+      - 27.317
+      - 47.766
+      rgb_color:
+      - 255
+      - 189
+      - 133
+      xy_color:
+      - 0.464
+      - 0.377
+      friendly_name: Office Desk Lamp
+      supported_features: 0
+      state: 'on'
+  metadata: {}
+- id: '1742600165635'
+  name: Office Off
+  entities:
+    light.wolf_lamp:
+      supported_color_modes:
+      - onoff
+      color_mode:
+      friendly_name: Wolf Lamp
+      supported_features: 0
+      state: 'off'
+    light.office_standing_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6500
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Office Standing Light
+      supported_features: 0
+      state: 'off'
+    light.office_desk_lamp:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6500
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      friendly_name: Office Desk Lamp
+      supported_features: 0
+      state: 'off'
+  metadata: {}

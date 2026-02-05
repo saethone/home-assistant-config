@@ -1,0 +1,3 @@
+entity: light.wake_up_light_light
+name: Wake Up Light
+type: custom:mushroom-light-card

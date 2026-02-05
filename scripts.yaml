@@ -1,0 +1,125 @@
+update_speedtest:
+  sequence:
+  - service: homeassistant.update_entity
+    data: {}
+    target:
+      entity_id:
+      - sensor.speedtest_download
+      - sensor.speedtest_upload
+      - sensor.speedtest_ping
+  mode: single
+  alias: Update Speedtest
+  icon: mdi:gauge
+run_roborock:
+  alias: Run Roborock Quiet
+  sequence:
+  - service: vacuum.send_command
+    data:
+      command: set_custom_mode
+      params: 101
+    target:
+      entity_id: vacuum.roborock_s4
+  - service: vacuum.start
+    data: {}
+    target:
+      device_id: 3bd53e147ac429278be21aa8ac60aaf1
+  mode: single
+  icon: mdi:robot-vacuum
+run_roborock_loud:
+  alias: Run Roborock Loud
+  sequence:
+  - service: vacuum.send_command
+    data:
+      command: set_custom_mode
+      params: 103
+    target:
+      entity_id: vacuum.roborock_s4
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 30
+      milliseconds: 0
+  - service: vacuum.start
+    data: {}
+    target:
+      device_id: 3bd53e147ac429278be21aa8ac60aaf1
+  mode: single
+  icon: mdi:robot-vacuum
+roborock_clean_living_room:
+  sequence:
+  - action: vacuum.send_command
+    metadata: {}
+    data:
+      command: app_segment_clean
+      params:
+      - segments:
+        - 16
+    target:
+      entity_id: vacuum.roborock_s4
+  alias: 'Roborock: Clean Living Room'
+  description: ''
+roborock_clean_kitchen:
+  sequence:
+  - action: vacuum.send_command
+    metadata: {}
+    data:
+      command: app_segment_clean
+      params:
+      - segments:
+        - 17
+    target:
+      entity_id: vacuum.roborock_s4
+  alias: 'Roborock: Clean Kitchen'
+  description: ''
+roborock_clean_office:
+  sequence:
+  - action: vacuum.send_command
+    metadata: {}
+    data:
+      command: app_segment_clean
+      params:
+      - segments:
+        - 21
+    target:
+      entity_id: vacuum.roborock_s4
+  alias: 'Roborock: Clean Office'
+  description: ''
+roborock_clean_entry:
+  sequence:
+  - action: vacuum.send_command
+    metadata: {}
+    data:
+      command: app_segment_clean
+      params:
+      - segments:
+        - 18
+    target:
+      entity_id: vacuum.roborock_s4
+  alias: 'Roborock: Clean Entry'
+  description: ''
+roborock_clean_bathroom:
+  sequence:
+  - action: vacuum.send_command
+    metadata: {}
+    data:
+      command: app_segment_clean
+      params:
+      - segments:
+        - 19
+    target:
+      entity_id: vacuum.roborock_s4
+  alias: 'Roborock: Clean Bathroom'
+  description: ''
+'1743373313367':
+  sequence:
+  - action: vacuum.send_command
+    metadata: {}
+    data:
+      command: app_segment_clean
+      params:
+      - segments:
+        - 2
+    target:
+      entity_id: vacuum.roborock_s4
+  alias: 'Roborock: Clean Dining Room'
+  description: ''

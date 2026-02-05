@@ -1,0 +1,11 @@
+commands:
+- start_pause
+- on_off
+- stop
+- return_home
+- clean_spot
+- locate
+entity: vacuum.roborock_s4
+fill_container: false
+icon_animation: true
+type: custom:mushroom-vacuum-card

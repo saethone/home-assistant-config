@@ -1,0 +1,10 @@
+battery_sensor: sensor.money_tree_battery
+display_type: full
+entity: plant.money_tree
+show_bars:
+- moisture
+- conductivity
+- temperature
+- illuminance
+- dli
+type: custom:flower-card

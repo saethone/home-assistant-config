@@ -1,0 +1,10 @@
+battery_sensor: sensor.snake_plant_battery
+display_type: full
+entity: plant.snake_plant
+show_bars:
+- moisture
+- conductivity
+- temperature
+- illuminance
+- dli
+type: custom:flower-card

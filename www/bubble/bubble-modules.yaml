@@ -1,0 +1,260 @@
+default:
+  name: Default
+  description: Empty and enabled by default. Move your styles/templates here in the <code>bubble-modules.yaml</code> file to apply them to all cards.
+  code: |
+  
+flat_style:
+    name: "Color Flat Bubble Cards"
+    version: "v1.0"
+    creator: "Will_Fezz"
+    link: "https://github.com/Clooos/Bubble-Card/discussions/1320"
+
+    unsupported:
+        - horizontal-buttons-stack
+
+    description: |
+        This design features a flat style for the bubble cards, resembling the mushroom or tile cards, but with a more vibrant and colorful touch.
+
+    code: |
+        .bubble-container {
+          border:1px solid rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          --bubble-accent-color: rgba(${this.config.flat_style.card_styles.prime_color}, .4);
+          --bubble-light-color: rgba(${this.config.flat_style.card_styles.prime_color}, .4);
+        }
+        
+        .bubble-button-card-container, .bubble-select-card-container, .bubble-climate-container, .bubble-media-player-container {
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          background: #eff1f5;
+          --bubble-button-box-shadow: 0px 3px 8px 0px rgba(${this.config.flat_style.card_styles.prime_color}, 0.35);
+          --bubble-button-border-radius: 20px;
+          --bubble-button-border: 1px solid rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          border:1px solid rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          }
+        
+        .bubble-range-slider {
+          border-radius: 0px;
+        }
+         
+        .bubble-icon, .bubble-name{
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          --accent-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          opacity: 1;
+          }
+        
+        .bubble-line {
+          background: rgba(${this.config.flat_style.card_styles.prime_color}, 0.1) ;
+        }
+
+         
+        .bubble-sub-button {
+          color: rgba(255, 255, 255, 1) ;
+          background-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+          border-radius: 12px;
+          --bubble-select-border: rgba(0,0,0,0);
+          }
+        
+        
+        .bubble-icon-container {
+          background-color: #eff1f5;
+          border-radius: 20px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: rgba(${this.config.flat_style.card_styles.prime_color}, 0.6) ;
+          height: 38px;
+          width: 38px;
+          }
+        
+        .bubble-button-background, .bubble-color-background, bubble-background-container {
+          background-color: #eff1f5;
+          opacity: 0;
+        }
+
+        .bubble-temperature-container, .bubble-low-temp-container, .bubble-high-temp-container {
+          border-radius: 12px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #eff1f5;
+          background-color: rgba(${this.config.flat_style.card_styles.prime_color}, 0.35) ;
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+        }
+
+        .bubble-climate-minus-button-icon, .bubble-climate-plus-button-icon{
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+        }
+
+        mwc-list-item {
+          border-radius: 12px;
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1);
+          --icon-primary-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+          --input-hover-line-color: rgba(${this.config.flat_style.card_styles.prime_color}, 0.2)
+        }
+
+        mwc-list-item[selected] {
+          background-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+          color: #eff1f5;
+          --icon-primary-color: #eff1f5;
+        }
+
+        ha-select {
+          --mdc-shape-medium: 20px ;
+        }
+        
+        ha-card div.bubble-media-player-container {
+          height: 119px !important;
+        }
+        
+        .bubble-media-player {
+          bottom: 30px !important;
+        }
+        
+        .bubble-cover-background {
+          filter: blur(3px) !important;
+          opacity: 0.4 !important;
+        }
+
+        ha-card div.bubble-media-info-container {
+          display: inline !important;
+          position: absolute !important;
+          top: 95px !important;
+          left: 16px !important
+        }
+    
+        ha-card div.bubble-name-container {
+          display: inline !important;
+        }
+    
+        ha-icon.bubble-play-pause-button {
+          position: absolute !important;
+          bottom: -22px !important;
+          right: 8px !important;
+        }
+        
+        .bubble-play-pause-button, .bubble-previous-button, .bubble-next-button, .bubble-volume-button, .bubble-dropdown-arrow, .bubble-power-button {
+          background-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+          color: #eff1f5 ;
+          --accent-color: #eff1f5;
+          border-radius: 12px;
+        }
+
+        .bubble-range-fill {
+          background-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+          --bubble-accent-color: rgba(${this.config.flat_style.card_styles.prime_color}, .4);
+        }
+
+        .bubble-volume-slider {
+          border-radius: 12px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+        }
+
+        bubble-mute-button {
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1) ;
+          
+        }
+
+        .bubble-separator {
+          
+          color: rgba(${this.config.flat_style.card_styles.prime_color}, 1} ;
+        }
+
+    editor:
+      - name: card_styles
+        type: expandable
+        title: "Card Color"
+        icon: "mdi:format-color-fill"
+        schema:
+            - label: "Primary Color "
+              name: prime_color
+              selector:
+                color_rgb: {}
+                
+progress_border:
+    name: "Icon Border as a progress indicator"
+    version: "v1.1"
+    creator: "Nick"
+    code: |
+        ${(() => {
+            const { progress_border: config } = this.config;
+            const element = card.querySelector('.bubble-icon-container');
+            
+            if (!config || !config.entity) {
+                return; 
+            }
+            
+            const entity = hass.states[config.entity];
+            if (!entity) {
+                return; 
+            }
+            
+            let progressValue;
+            if (config.attribute) {
+                progressValue = parseFloat(entity.attributes[config.attribute]);
+            } else {
+                progressValue = parseFloat(entity.state);
+            }
+            if (isNaN(progressValue) || progressValue < 0 || progressValue > 100) {
+                progressValue = 0;
+            }
+        
+            const color = config.color;
+            let colorVariable;
+            if (color) {
+                colorVariable = `var(--${color}-color)`;
+            } else {
+                colorVariable = `var(--primary-color)`; 
+            }     
+            
+            const backcolor = config.backcolor; 
+            let backColorVariable;
+            if (backcolor) {
+                backColorVariable = `var(--${backcolor}-color)`;
+            } else {
+                backColorVariable = `var(--dark-grey-color)`;
+            }
+            
+            const bubbleBorderRadius = getComputedStyle(element).getPropertyValue('--bubble-icon-border-radius');
+            if (bubbleBorderRadius && bubbleBorderRadius.trim() !== '') {
+                element.classList.add('has-bubble-border-radius');
+            } else {
+                element.classList.remove('has-bubble-border-radius');
+            }
+            
+            if (element) {
+                element.style.background = `radial-gradient(${backColorVariable} 60%, transparent 0%), conic-gradient(${colorVariable} ${progressValue}% 0%, ${backColorVariable} 0% 100%)`;
+            }
+        })()}
+        .bubble-icon-container.has-bubble-border-radius:before {
+            position: absolute;
+            content: "";
+            margin-top: 2px !important;
+            margin-left: 2px !important;
+            margin-top: 2px !important;
+            margin-bottom: 2px !important;
+            height: calc(100% - 4px) !important;
+            width: calc(100% - 4px) !important;
+            border-radius: calc(var(--bubble-icon-border-radius) - 2px) !important;
+            background: var(--${this.config.progress_border?.backcolor ?? 'card-background'}-color) !important;
+            opacity: 1 !important;
+        }
+    editor:
+      - type: expandable
+        title: "Select entity"
+        icon: "mdi:list-box-outline"
+        schema:
+          - name: entity
+            label: "Entity"
+            selector:
+                entity: {}
+          - name: attribute
+            label: "Attribute"
+            selector:
+                attribute: {}
+          - name: color
+            label: "Progress Color"
+            selector:
+                ui_color:
+          - name: backcolor
+            label: "Icon Background Color"
+            selector:
+                ui_color:

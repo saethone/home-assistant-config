@@ -1,0 +1,17 @@
+snake_plant:
+  sensors:
+    moisture: sensor.snake_plant_moisture
+    battery: sensor.snake_plant_battery
+    temperature: sensor.snake_plant_temperature
+    conductivity: sensor.snake_plant_conductivity
+    brightness: sensor.snake_plant_brightness
+    
+
+money_tree:
+  sensors:
+    moisture: sensor.money_tree_moisture
+    battery: sensor.money_tree_battery
+    temperature: sensor.money_tree_temperature
+    conductivity: sensor.money_tree_conductivity
+    brightness: sensor.money_tree_brightness
+    

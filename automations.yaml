@@ -1,0 +1,451 @@
+- id: '1636762336005'
+  alias: Vacuum Full
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.roborock_s4_status
+    to: cleaning
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  condition: []
+  action:
+  - service: input_boolean.turn_on
+    target:
+      entity_id: input_boolean.roborock_full
+    data: {}
+  mode: single
+- id: '1639068650084'
+  alias: Update Speedtest
+  description: ''
+  trigger:
+  - platform: time_pattern
+    hours: /2
+  condition: []
+  action:
+  - service: script.update_speedtest
+    data: {}
+  - delay:
+      hours: 0
+      minutes: 5
+      seconds: 0
+      milliseconds: 0
+  mode: single
+- id: '1684884838229'
+  alias: Evening Lights
+  description: ''
+  triggers:
+  - entity_id:
+    - sensor.farm_irradiance
+    for:
+      hours: 0
+      minutes: 10
+      seconds: 0
+    below: 50
+    trigger: numeric_state
+  conditions:
+  - condition: time
+    after: '12:00:00'
+    before: '21:00:00'
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: scene.downstairs_evening
+  mode: single
+- id: '1697155816672'
+  alias: Run Roborock Nightly
+  description: ''
+  trigger:
+  - platform: time
+    at: 03:30:00
+  condition:
+  - condition: state
+    entity_id: input_boolean.roborock_full
+    state: 'off'
+  - condition: state
+    entity_id: input_boolean.guest_mode
+    state: 'off'
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.lamp_1
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 10
+      milliseconds: 0
+  - service: script.run_roborock
+    data: {}
+  - wait_for_trigger:
+    - platform: state
+      entity_id:
+      - vacuum.roborock_s4
+      from: returning
+      to: docked
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 0
+    timeout:
+      hours: 1
+      minutes: 0
+      seconds: 0
+      milliseconds: 0
+  mode: single
+- id: '1697399007603'
+  alias: Run Roborock Away
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - zone.home
+    to: '0'
+  condition:
+  - condition: state
+    entity_id: input_boolean.roborock_full
+    state: 'off'
+  - condition: state
+    entity_id: input_boolean.guest_mode
+    state: 'off'
+  action:
+  - service: script.run_roborock_loud
+    data: {}
+  - wait_for_trigger:
+    - platform: state
+      entity_id:
+      - vacuum.roborock_s4
+      from: returning
+      to: docked
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 0
+    timeout:
+      hours: 1
+      minutes: 0
+      seconds: 0
+      milliseconds: 0
+  mode: single
+- id: '1697400028765'
+  alias: Alarm - Arm Away
+  description: ''
+  triggers:
+  - entity_id:
+    - zone.home
+    to: '0'
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 30
+    trigger: state
+  conditions: []
+  actions:
+  - data: {}
+    target:
+      entity_id:
+      - alarm_control_panel.antioch_alarm
+    action: alarm_control_panel.alarm_arm_away
+  mode: single
+- id: '1697400195658'
+  alias: Home - Disarm Alarm
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - zone.home
+    from: '0'
+    id: LeaveHome
+  - platform: webhook
+    allowed_methods:
+    - POST
+    - PUT
+    local_only: true
+    webhook_id: home-disarm-alarm-qTRaqsu15iAnqefb5ZEpP605
+    id: HomeKitCall
+  condition: []
+  action:
+  - service: alarm_control_panel.alarm_disarm
+    data: {}
+    target:
+      entity_id:
+      - alarm_control_panel.antioch_alarm
+  mode: single
+- id: '1697400440915'
+  alias: Katya leaves work
+  description: ''
+  trigger:
+  - platform: zone
+    entity_id: person.katya
+    zone: zone.katya_office
+    event: leave
+  condition:
+  - condition: time
+    after: '15:00:00'
+  action:
+  - service: notify.mobile_app_josh_iphone_ha
+    data:
+      message: Katya is on the way home - ETA {{ states('sensor.commute_from_work')
+        }} minutes
+  mode: single
+- id: '1705098147168'
+  alias: Nova Outside
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.sliding_door
+    to: 'off'
+    from: 'on'
+    for:
+      hours: 2
+      minutes: 0
+      seconds: 0
+    id: nova2
+  - platform: state
+    entity_id:
+    - binary_sensor.sliding_door
+    to: 'off'
+    from: 'on'
+    for:
+      hours: 3
+      minutes: 0
+      seconds: 0
+    id: nova3
+  condition:
+  - condition: time
+    weekday:
+    - sat
+    - fri
+    - thu
+    - wed
+    - tue
+    - mon
+    - sun
+    after: 09:00:00
+    before: '22:30:00'
+  - condition: or
+    conditions:
+    - condition: zone
+      entity_id: person.josh
+      zone: zone.home
+    - condition: zone
+      entity_id: person.katya
+      zone: zone.home
+  action:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - nova2
+      sequence:
+      - parallel:
+        - if:
+          - condition: zone
+            entity_id: person.josh
+            zone: zone.home
+          then:
+          - service: notify.mobile_app_josh_iphone_ha
+            metadata: {}
+            data:
+              message: It's been 2 hours since Nova has gone outside.
+        - if:
+          - condition: zone
+            entity_id: person.katya
+            zone: zone.home
+          then:
+          - service: notify.mobile_app_kp_iphone15
+            data:
+              message: It's been 2 hours since Nova has gone outside.
+    - conditions:
+      - condition: trigger
+        id:
+        - nova3
+      sequence:
+      - service: tts.speak
+        metadata: {}
+        data:
+          cache: true
+          media_player_entity_id: media_player.office
+          message: Nova needs to go outside.
+        target:
+          entity_id: tts.piper
+  mode: single
+- id: '1707708658189'
+  alias: Siri Disarm Ring
+  description: Webhook for Siri to disarm the ring.
+  trigger:
+  - platform: webhook
+    allowed_methods:
+    - POST
+    - PUT
+    local_only: false
+    webhook_id: -EJ4rAALECoyYzlApT4tiW_vo
+  condition: []
+  action:
+  - service: alarm_control_panel.alarm_disarm
+    metadata: {}
+    data: {}
+    target:
+      device_id: 600a56d9ffacd9a90cbf281f1a2c72bf
+  mode: single
+- id: '1744301000431'
+  alias: 'Calendar: Update Family Calendar'
+  description: ''
+  triggers:
+  - trigger: time_pattern
+    minutes: /15
+  conditions: []
+  actions:
+  - action: homeassistant.update_entity
+    metadata: {}
+    data:
+      entity_id:
+      - calendar.family_calendar
+  mode: single
+- id: '1744390685458'
+  alias: Homekit - Sensor Collection
+  description: ''
+  triggers:
+  - trigger: time_pattern
+    minutes: /2
+  conditions: []
+  actions:
+  - action: input_boolean.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.collection_of_homekit_sensors
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 5
+      milliseconds: 0
+  - action: input_boolean.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.collection_of_homekit_sensors
+  mode: single
+- id: '1744499831078'
+  alias: Package Notifier
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - event.front_door_motion
+    to:
+    - 'on'
+  conditions:
+  - condition: state
+    entity_id: binary_sensor.front_door_motion
+    attribute: state
+    state: human
+  actions:
+  - action: input_boolean.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.package_check
+  mode: single
+- id: '1744644088885'
+  alias: Package Clear
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - binary_sensor.front_door_2
+    from:
+    to: 'on'
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 3
+  conditions: []
+  actions:
+  - action: input_boolean.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.package_check
+  - action: automation.turn_off
+    metadata: {}
+    data:
+      stop_actions: true
+    target:
+      entity_id: automation.package_notifier
+  - delay:
+      hours: 0
+      minutes: 5
+      seconds: 0
+      milliseconds: 0
+  - action: automation.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: automation.package_notifier
+  mode: single
+- id: '1744662748635'
+  alias: Washer Running
+  description: ''
+  triggers:
+  - trigger: numeric_state
+    entity_id:
+    - sensor.smart_plug_washer_power
+    above: 0.4
+  conditions:
+  - condition: state
+    entity_id: input_text.washer_status
+    state: 'Off'
+  actions:
+  - action: input_text.set_value
+    metadata: {}
+    data:
+      value: Running
+    target:
+      entity_id: input_text.washer_status
+  mode: single
+- id: '1744662803019'
+  alias: Washer Off
+  description: ''
+  triggers:
+  - trigger: numeric_state
+    entity_id:
+    - sensor.smart_plug_washer_power
+    for:
+      hours: 0
+      minutes: 3
+      seconds: 0
+    below: 0.5
+  conditions:
+  - condition: state
+    entity_id: input_text.washer_status
+    state: Running
+  actions:
+  - action: input_text.set_value
+    metadata: {}
+    data:
+      value: 'Off'
+    target:
+      entity_id: input_text.washer_status
+  mode: single
+- id: '1744666228446'
+  alias: Dryer Start Timer
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - sensor.sv800260c_laundry_sub_cycle
+  conditions: []
+  actions:
+  - action: timer.start
+    metadata: {}
+    data:
+      duration: '{{ states.sensor.sv800260c_laundry_time_remaining.state }}:00'
+    target:
+      entity_id: timer.dryer_progress
+  mode: single

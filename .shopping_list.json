@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Bread",
+    "id": "Bread",
+    "complete": true
+  },
+  {
+    "name": "Peanut butter",
+    "id": "Peanut butter",
+    "complete": true
+  },
+  {
+    "name": "Jelly",
+    "id": "Jelly",
+    "complete": true
+  },
+  {
+    "name": "Under bed eight inch",
+    "id": "Under bed eight inch",
+    "complete": false
+  },
+  {
+    "name": "Disposable gloves",
+    "id": "Disposable gloves",
+    "complete": true
+  },
+  {
+    "name": "Trash bags",
+    "id": "Trash bags",
+    "complete": true
+  },
+  {
+    "name": "Slow cooker liners",
+    "id": "Slow cooker liners",
+    "complete": true
+  },
+  {
+    "name": "Windex",
+    "id": "Windex",
+    "complete": true
+  },
+  {
+    "name": "Iceberg Lettuce",
+    "id": "Iceberg Lettuce",
+    "complete": true
+  },
+  {
+    "name": "Porchini peppers",
+    "id": "Porchini peppers",
+    "complete": true
+  },
+  {
+    "name": "Salami",
+    "id": "Salami",
+    "complete": true
+  },
+  {
+    "name": "Turkey",
+    "id": "Turkey",
+    "complete": true
+  },
+  {
+    "name": "Red onion",
+    "id": "Red onion",
+    "complete": true
+  },
+  {
+    "name": "Submarine dressing",
+    "id": "Submarine dressing",
+    "complete": true
+  },
+  {
+    "name": "Cheese",
+    "id": "Cheese",
+    "complete": true
+  },
+  {
+    "name": "Parmesean block",
+    "id": "Parmesean block",
+    "complete": true
+  },
+  {
+    "name": "Tomato",
+    "id": "Tomato",
+    "complete": true
+  },
+  {
+    "name": "Dial",
+    "id": "Dial",
+    "complete": true
+  },
+  {
+    "name": "Chips",
+    "id": "Chips",
+    "complete": true
+  },
+  {
+    "name": "Toothpaste",
+    "id": "Toothpaste",
+    "complete": true
+  }
+]

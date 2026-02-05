@@ -1,0 +1,17 @@
+{
+  "domain": "chore_helper",
+  "name": "Chore",
+  "codeowners": [
+    "@bmcclure"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/bmcclure/ha-chore-helper",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/bmcclure/ha-chore-helper/issues",
+  "requirements": [
+    "python-dateutil>=2.8.2"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,82 @@
+{
+    "0x282c02bfffefd668": {
+        "state": "ON",
+        "voltage": 121.7,
+        "ac_frequency": 60,
+        "energy": 47.24,
+        "linkquality": 176,
+        "power_on_behavior": "previous",
+        "power_factor": 0.56,
+        "current": 0.13,
+        "power": 9.1,
+        "update": {
+            "state": "available",
+            "installed_version": 268513372,
+            "latest_version": 268513381,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
+            "latest_release_notes": null
+        }
+    },
+    "0x282c02bfffefcaf1": {
+        "state": "ON",
+        "voltage": 121.4,
+        "ac_frequency": 60,
+        "energy": 22.49,
+        "power_factor": 0.08,
+        "power": 0.4,
+        "current": 0.04,
+        "linkquality": 140,
+        "power_on_behavior": "on",
+        "update": {
+            "state": "available",
+            "installed_version": 268513372,
+            "latest_version": 268513381,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
+            "latest_release_notes": null
+        }
+    },
+    "0xffffb40e060009ec": {
+        "voltage": 121.3,
+        "ac_frequency": 60,
+        "energy": 5.21,
+        "state": "ON",
+        "linkquality": 188,
+        "power": 1.5,
+        "current": 0.02,
+        "power_factor": 0.4,
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "available",
+            "installed_version": 268513372,
+            "latest_version": 268513381,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
+            "latest_release_notes": null
+        }
+    },
+    "0x282c02bfffefcd88": {
+        "voltage": 122.7,
+        "ac_frequency": 60,
+        "state": "OFF",
+        "energy": 0,
+        "linkquality": 188,
+        "power_factor": 0,
+        "current": 0,
+        "power": 0,
+        "update": {
+            "state": "available",
+            "installed_version": 268513372,
+            "latest_version": 268513381,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
+            "latest_release_notes": null
+        }
+    },
+    "0x000d6f0010a6b3e8": {
+        "contact": true,
+        "tamper": false,
+        "battery_low": false,
+        "voltage": 2500,
+        "battery": 8,
+        "linkquality": 188,
+        "temperature": 18
+    }
+}

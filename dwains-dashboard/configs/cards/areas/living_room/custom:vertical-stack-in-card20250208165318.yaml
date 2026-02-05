@@ -1,0 +1,14 @@
+cards:
+- entity: vacuum.roborock_s4
+  map: image.roborock_s4
+  type: custom:vacuum-card
+- entity: input_boolean.roborock_full
+  type: custom:mushroom-entity-card
+col_span: '1'
+col_span_lg: '1'
+col_span_xl: '1'
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: custom:vertical-stack-in-card

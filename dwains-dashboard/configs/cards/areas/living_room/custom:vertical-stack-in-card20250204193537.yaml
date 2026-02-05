@@ -1,0 +1,27 @@
+cards:
+- collapsible_controls: true
+  entity: media_player.living_room_tv
+  type: custom:mushroom-media-player-card
+- collapsible_controls: true
+  entity: media_player.living_room
+  media_controls:
+  - play_pause_stop
+  - on_off
+  type: custom:mushroom-media-player-card
+  use_media_info: false
+- entity: media_player.living_room_sonos
+  type: custom:mushroom-media-player-card
+  volume_controls:
+  - volume_set
+  - volume_mute
+- entity: light.neo_3
+  name: Backlight
+  type: custom:mushroom-light-card
+col_span: '1'
+col_span_lg: '2'
+col_span_xl: '3'
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: custom:vertical-stack-in-card

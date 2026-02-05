@@ -1,0 +1,57 @@
+version: 4
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://core-mosquitto:1883
+  user: addons
+  password: zieJ9oosheeBoh8iFahye5wei5OteiW1thooxaeghuebeimur1eiGhohVieThail
+serial:
+  port: /dev/ttyUSB0
+  adapter: ember
+  baudrate: 115200
+  rtscts: false
+advanced:
+  log_level: info
+  channel: 11
+  network_key:
+    - 117
+    - 241
+    - 204
+    - 56
+    - 219
+    - 63
+    - 60
+    - 103
+    - 202
+    - 103
+    - 8
+    - 36
+    - 1
+    - 58
+    - 89
+    - 23
+  pan_id: 32056
+  ext_pan_id:
+    - 226
+    - 119
+    - 127
+    - 215
+    - 122
+    - 107
+    - 49
+    - 203
+frontend:
+  enabled: true
+  port: 8099
+homeassistant:
+  enabled: true
+devices:
+  '0x282c02bfffefd668':
+    friendly_name: Smart_Plug_Josh_Office
+  '0x282c02bfffefcaf1':
+    friendly_name: Smart_Plug_Washer
+  '0xffffb40e060009ec':
+    friendly_name: Smart_Plug_Reading_Lamp
+  '0x282c02bfffefcd88':
+    friendly_name: Smart_Plug_Upstairs
+  '0x000d6f0010a6b3e8':
+    friendly_name: Belle Litter Door

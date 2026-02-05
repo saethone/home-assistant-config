@@ -1,0 +1,3 @@
+entity: switch.lamp_1
+icon: mdi:lightbulb
+type: custom:mushroom-entity-card

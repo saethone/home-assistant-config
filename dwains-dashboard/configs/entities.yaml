@@ -1,0 +1,1145 @@
+switch.lamp_1:
+  disabled: false
+  sort_order: 2
+  hidden: true
+  custom_card: true
+switch.lamp_2:
+  disabled: false
+  sort_order: 1
+  hidden: true
+  custom_card: true
+media_player.living_room_sonos:
+  disabled: false
+  custom_card: true
+  hidden: true
+  excluded: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '3'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_popup: false
+  sort_order: 3
+switch.sonos_living_room_sonos_crossfade:
+  disabled: false
+  hidden: true
+switch.sonos_living_room_sonos_night_sound:
+  disabled: true
+  hidden: false
+switch.sonos_living_room_sonos_speech_enhancement:
+  disabled: true
+  hidden: false
+media_player.living_room_sony_tv:
+  disabled: false
+  hidden: true
+remote.living_room_sony_tv:
+  disabled: false
+  hidden: true
+media_player.living_room_tv_google_cast:
+  disabled: false
+  hidden: true
+sensor.front_door_info:
+  disabled: false
+  sort_order: 5
+  hidden: true
+sensor.front_door_battery_2:
+  disabled: false
+  hidden: true
+binary_sensor.front_door_tamper:
+  disabled: false
+  hidden: true
+binary_sensor.front_door:
+  disabled: false
+  sort_order: 4
+  hidden: true
+switch.couch_lamp_led:
+  disabled: true
+  hidden: false
+switch.tv_lamp_led:
+  disabled: true
+  hidden: false
+number.living_room_bass:
+  disabled: false
+  hidden: true
+number.living_room_treble:
+  disabled: false
+  hidden: true
+sensor.living_room_audio_input_format:
+  disabled: false
+  hidden: true
+switch.sonos_living_room_subwoofer_enabled:
+  disabled: true
+  hidden: false
+switch.sonos_living_room_surround_enabled:
+  disabled: true
+  hidden: false
+number.living_room_audio_delay:
+  disabled: false
+  hidden: true
+number.living_room_sub_gain:
+  disabled: false
+  hidden: true
+number.living_room_sonos_surround_level:
+  disabled: false
+  hidden: true
+number.living_room_sonos_music_surround_level:
+  disabled: false
+  hidden: true
+switch.living_room_sonos_loudness:
+  disabled: true
+  custom_card: true
+  hidden: false
+  excluded: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '2'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_popup: false
+  sort_order: 4
+switch.living_room_sonos_surround_music_full_volume:
+  disabled: false
+  hidden: true
+select.front_door_bypass_mode:
+  disabled: false
+  hidden: true
+button.living_room_sony_tv_reboot:
+  disabled: false
+  hidden: true
+button.living_room_sony_tv_terminate_apps:
+  disabled: false
+  hidden: true
+binary_sensor.router_wan_status:
+  disabled: true
+sensor.router_external_ip:
+  disabled: true
+sensor.router_kib_s_received:
+  disabled: true
+sensor.router_kib_s_sent:
+  disabled: true
+number.living_room_sonos_balance:
+  disabled: false
+  hidden: true
+remote.living_room_tv:
+  disabled: true
+media_player.living_room_tv:
+  disabled: true
+select.chirp_tone_3:
+  hidden: true
+vacuum.roborock_s4:
+  hidden: true
+  custom_card: true
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '3'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_popup: false
+  sort_order: 5
+sensor.roborock_s4_main_brush_time_left:
+  hidden: true
+sensor.roborock_s4_side_brush_time_left:
+  hidden: true
+sensor.roborock_s4_filter_time_left:
+  hidden: true
+sensor.roborock_s4_sensor_time_left:
+  hidden: true
+sensor.roborock_s4_cleaning_time:
+  hidden: true
+sensor.roborock_s4_total_cleaning_time:
+  hidden: true
+sensor.roborock_s4_status:
+  hidden: true
+sensor.roborock_s4_cleaning_area:
+  hidden: true
+sensor.roborock_s4_total_cleaning_area:
+  hidden: true
+sensor.roborock_s4_vacuum_error:
+  hidden: true
+sensor.roborock_s4_battery:
+  hidden: true
+sensor.roborock_s4_last_clean_begin:
+  hidden: true
+sensor.roborock_s4_last_clean_end:
+  hidden: true
+switch.roborock_s4_do_not_disturb:
+  hidden: true
+number.roborock_s4_volume:
+  hidden: true
+time.roborock_s4_do_not_disturb_begin:
+  hidden: true
+time.roborock_s4_do_not_disturb_end:
+  hidden: true
+input_boolean.roborock_full:
+  sort_order: 6
+  custom_card: true
+  hidden: true
+sensor.sliding_door_info:
+  hidden: true
+sensor.sliding_door_battery:
+  hidden: true
+binary_sensor.sliding_door_tamper:
+  hidden: true
+binary_sensor.sliding_door:
+  hidden: true
+sensor.garage_door_info:
+  hidden: true
+sensor.garage_door_battery:
+  hidden: true
+binary_sensor.garage_door_tamper:
+  hidden: true
+binary_sensor.garage_door:
+  hidden: true
+media_player.living_room_echo_show:
+  hidden: true
+switch.living_room_echo_show_do_not_disturb_switch:
+  hidden: true
+switch.living_room_echo_show_shuffle_switch:
+  hidden: true
+switch.living_room_echo_show_repeat_switch:
+  hidden: true
+sensor.living_room_echo_show_next_alarm:
+  hidden: true
+sensor.living_room_echo_show_next_timer:
+  hidden: true
+sensor.living_room_echo_show_next_reminder:
+  hidden: true
+select.sliding_door_bypass_mode:
+  hidden: true
+select.garage_door_bypass_mode:
+  hidden: true
+select.chirp_tone_2:
+  hidden: true
+select.chirp_tone_4:
+  hidden: true
+media_player.master_tv_google_cast:
+  hidden: true
+media_player.bedroom_dot:
+  hidden: true
+switch.bedroom_dot_do_not_disturb_switch:
+  hidden: true
+switch.bedroom_dot_shuffle_switch:
+  hidden: true
+switch.bedroom_dot_repeat_switch:
+  hidden: true
+sensor.bedroom_dot_next_alarm:
+  hidden: true
+sensor.bedroom_dot_next_timer:
+  hidden: true
+sensor.bedroom_dot_next_reminder:
+  hidden: true
+scene.wakeup_10:
+  hidden: true
+scene.wakeup_25:
+  hidden: true
+scene.wakeup_50:
+  hidden: true
+scene.wakeup_50_2:
+  hidden: true
+media_player.v705_h39193:
+  hidden: false
+  custom_card: true
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '2'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_popup: false
+  sort_order: 1
+light.wake_up_light:
+  hidden: true
+light.wake_up_light_light:
+  hidden: false
+  custom_card: true
+  sort_order: 2
+media_player.joshua_s_sonos_one_second_edition:
+  hidden: true
+switch.joshua_s_sonos_one_second_edition_do_not_disturb_switch:
+  hidden: true
+switch.joshua_s_sonos_one_second_edition_shuffle_switch:
+  hidden: true
+switch.joshua_s_sonos_one_second_edition_repeat_switch:
+  hidden: true
+sensor.joshua_s_sonos_one_second_edition_next_alarm:
+  hidden: true
+sensor.joshua_s_sonos_one_second_edition_next_timer:
+  hidden: true
+sensor.joshua_s_sonos_one_second_edition_next_reminder:
+  hidden: true
+media_player.bathroom_sonos:
+  hidden: false
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '2'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_card: true
+  custom_popup: false
+switch.sonos_bathroom_sonos_crossfade:
+  hidden: true
+number.bathroom_sonos_bass:
+  hidden: true
+number.bathroom_sonos_treble:
+  hidden: true
+binary_sensor.bathroom_sonos_microphone:
+  hidden: true
+switch.bathroom_sonos_loudness:
+  hidden: false
+  disabled: true
+number.bathroom_sonos_balance:
+  hidden: true
+switch.wolf_lamp:
+  hidden: false
+  custom_card: true
+  grouped_sort_order: 1
+media_player.office_dot:
+  hidden: true
+switch.office_dot_do_not_disturb_switch:
+  hidden: true
+switch.office_dot_shuffle_switch:
+  hidden: true
+switch.office_dot_repeat_switch:
+  hidden: true
+sensor.office_dot_next_alarm:
+  hidden: true
+sensor.office_dot_next_timer:
+  hidden: true
+  custom_card: true
+sensor.office_dot_next_reminder:
+  hidden: true
+switch.wolf_lamp_led:
+  hidden: false
+  disabled: true
+sensor.snake_plant_conductivity:
+  hidden: true
+sensor.snake_plant_illuminance:
+  hidden: true
+sensor.snake_plant_moisture_2:
+  hidden: true
+sensor.snake_plant_temperature:
+  hidden: true
+sensor.money_tree_conductivity_2:
+  hidden: true
+sensor.money_tree_illuminance_2:
+  hidden: true
+sensor.money_tree_moisture:
+  hidden: true
+sensor.money_tree_temperature_2:
+  hidden: true
+sensor.snake_plant_battery:
+  hidden: true
+sensor.money_tree_battery:
+  hidden: true
+light.office_desk_lamp:
+  hidden: false
+  custom_card: true
+light.office_standing_light:
+  hidden: false
+  custom_card: true
+sensor.epson_xp_5100_series_black_ink:
+  hidden: true
+sensor.epson_xp_5100_series_cyan_ink:
+  hidden: true
+sensor.epson_xp_5100_series_magenta_ink:
+  hidden: true
+sensor.epson_xp_5100_series_yellow_ink:
+  hidden: true
+sensor.epson_xp_5100_series:
+  hidden: true
+weather.home:
+  hidden: true
+weather.kbna_daynight:
+  hidden: true
+sensor.waze_travel_time_travel_time:
+  hidden: true
+sensor.sun_next_dawn:
+  hidden: true
+sensor.sun_next_dusk:
+  hidden: true
+sensor.sun_next_midnight:
+  hidden: true
+sensor.sun_next_noon:
+  hidden: true
+sensor.sun_next_rising:
+  hidden: true
+sensor.sun_next_setting:
+  hidden: true
+binary_sensor.weatherflow_is_freezing:
+  hidden: true
+binary_sensor.weatherflow_is_raining:
+  hidden: true
+binary_sensor.weatherflow_is_lightning:
+  hidden: true
+sensor.weatherflow_air_temperature:
+  hidden: true
+sensor.weatherflow_barometric_pressure:
+  hidden: true
+sensor.weatherflow_sea_level_pressure:
+  hidden: true
+sensor.weatherflow_station_pressure:
+  hidden: true
+sensor.weatherflow_relative_humidity:
+  hidden: true
+sensor.weatherflow_absolute_humidity:
+  hidden: true
+sensor.weatherflow_precipitation_rate:
+  hidden: true
+sensor.weatherflow_precipitation_last_hour:
+  hidden: true
+sensor.weatherflow_precipitation_today:
+  hidden: true
+sensor.weatherflow_precipitation_today_rain_checked:
+  hidden: true
+sensor.weatherflow_precipitation_yesterday:
+  hidden: true
+sensor.weatherflow_precipitation_yesterday_rain_checked:
+  hidden: true
+sensor.weatherflow_precipitation_duration_today:
+  hidden: true
+sensor.weatherflow_precipitation_duration_yesterday:
+  hidden: true
+sensor.weatherflow_precipitation_duration_yesterday_rain_checked:
+  hidden: true
+sensor.weatherflow_wind_direction:
+  hidden: true
+sensor.weatherflow_wind_speed:
+  hidden: true
+sensor.weatherflow_wind_gust:
+  hidden: true
+sensor.weatherflow_wind_lull:
+  hidden: true
+sensor.weatherflow_wind_speed_km_h:
+  hidden: true
+sensor.weatherflow_wind_gust_km_h:
+  hidden: true
+sensor.weatherflow_wind_lull_km_h:
+  hidden: true
+sensor.weatherflow_wind_speed_knots:
+  hidden: true
+sensor.weatherflow_wind_gust_knots:
+  hidden: true
+sensor.weatherflow_wind_lull_knots:
+  hidden: true
+sensor.weatherflow_beaufort:
+  hidden: true
+sensor.weatherflow_solar_radiation:
+  hidden: true
+sensor.weatherflow_uv_index:
+  hidden: true
+sensor.weatherflow_brightness:
+  hidden: true
+sensor.weatherflow_last_lightning_strike:
+  hidden: true
+sensor.weatherflow_last_lightning_strike_distance:
+  hidden: true
+sensor.weatherflow_lightning_strike_count:
+  hidden: true
+sensor.weatherflow_lightning_strike_count_last_hour:
+  hidden: true
+sensor.weatherflow_lightning_strike_count_last_3_hours:
+  hidden: true
+sensor.weatherflow_feels_like_temperature:
+  hidden: true
+sensor.weatherflow_heat_index:
+  hidden: true
+sensor.weatherflow_wind_chill:
+  hidden: true
+sensor.weatherflow_dewpoint:
+  hidden: true
+sensor.weatherflow_wet_bulb_temperature:
+  hidden: true
+sensor.weatherflow_delta_t:
+  hidden: true
+sensor.weatherflow_air_density:
+  hidden: true
+sensor.weatherflow_visibility:
+  hidden: true
+sensor.weatherflow_pressure_trend:
+  hidden: true
+sensor.weatherflow_voltage_tempest:
+  hidden: true
+sensor.weatherflow_battery_tempest:
+  hidden: true
+sensor.weatherflow_battery_mode_tempest:
+  hidden: true
+sensor.weatherflow_uv_description:
+  hidden: true
+sensor.weatherflow_wind_cardinal:
+  hidden: true
+sensor.weatherflow_beaufort_description:
+  hidden: true
+sensor.weatherflow_precipitation_intensity:
+  hidden: true
+sensor.weatherflow_station_information:
+  hidden: true
+sensor.weatherflow_freezing_line:
+  hidden: true
+sensor.weatherflow_cloud_base:
+  hidden: true
+weather.weatherflow_day_based_forecast:
+  hidden: true
+weather.weatherflow_hourly_based_forecast:
+  hidden: true
+media_player.gym_room_tv_google_cast:
+  hidden: true
+media_player.joshua_s_3rd_echo_dot:
+  hidden: true
+switch.joshua_s_3rd_echo_dot_do_not_disturb_switch:
+  hidden: true
+switch.joshua_s_3rd_echo_dot_shuffle_switch:
+  hidden: true
+switch.joshua_s_3rd_echo_dot_repeat_switch:
+  hidden: true
+sensor.joshua_s_3rd_echo_dot_next_alarm:
+  hidden: true
+sensor.joshua_s_3rd_echo_dot_next_timer:
+  hidden: true
+sensor.joshua_s_3rd_echo_dot_next_reminder:
+  hidden: true
+light.gym_leds:
+  hidden: true
+number.effect_speed_gym_leds:
+  hidden: true
+binary_sensor.updater:
+  hidden: true
+sensor.hacs:
+  hidden: true
+binary_sensor.remote_ui:
+  hidden: true
+sensor.speedtest_ping:
+  hidden: true
+sensor.speedtest_download:
+  hidden: true
+sensor.speedtest_upload:
+  hidden: true
+update.home_assistant_supervisor_update:
+  hidden: true
+update.home_assistant_core_update:
+  hidden: true
+update.terminal_ssh_update:
+  hidden: true
+update.file_editor_update:
+  hidden: true
+update.check_home_assistant_configuration_update:
+  hidden: true
+update.studio_code_server_update:
+  hidden: true
+update.samba_share_update:
+  hidden: true
+update.home_assistant_google_drive_backup_update:
+  hidden: true
+update.duck_dns_update:
+  hidden: true
+update.nginx_home_assistant_ssl_proxy_update:
+  hidden: true
+update.mosquitto_broker_update:
+  hidden: true
+update.home_assistant_operating_system_update:
+  hidden: true
+update.ring_mqtt_with_video_streaming_update:
+  hidden: true
+update.let_s_encrypt_update:
+  hidden: true
+device_tracker.josh_iphone:
+  hidden: true
+sensor.josh_iphone_activity:
+  hidden: true
+sensor.josh_iphone_distance:
+  hidden: true
+sensor.josh_iphone_floors_ascended:
+  hidden: true
+sensor.josh_iphone_floors_descended:
+  hidden: true
+sensor.josh_iphone_steps:
+  hidden: true
+sensor.josh_iphone_average_active_pace:
+  hidden: true
+sensor.josh_iphone_battery_level:
+  hidden: true
+sensor.josh_iphone_battery_state:
+  hidden: true
+sensor.josh_iphone_storage:
+  hidden: true
+sensor.josh_iphone_ssid:
+  hidden: true
+sensor.josh_iphone_bssid:
+  hidden: true
+sensor.josh_iphone_connection_type:
+  hidden: true
+sensor.josh_iphone_sim_2:
+  hidden: true
+sensor.josh_iphone_sim_1:
+  hidden: true
+sensor.josh_iphone_geocoded_location:
+  hidden: true
+sensor.josh_iphone_last_update_trigger:
+  hidden: true
+binary_sensor.josh_iphone_focus:
+  hidden: true
+media_player.katya_s_2nd_fire:
+  hidden: true
+switch.katya_s_2nd_fire_do_not_disturb_switch:
+  hidden: true
+sensor.katya_s_2nd_fire_next_alarm:
+  hidden: true
+sensor.katya_s_2nd_fire_next_timer:
+  hidden: true
+sensor.katya_s_2nd_fire_next_reminder:
+  hidden: true
+device_tracker.firetab1:
+  hidden: true
+sensor.firetab1_battery_level:
+  hidden: true
+sensor.firetab1_battery_state:
+  hidden: true
+binary_sensor.firetab1_is_charging:
+  hidden: true
+sensor.firetab1_charger_type:
+  hidden: true
+sensor.firetab1_battery_health:
+  hidden: true
+sensor.firetab1_battery_temperature:
+  hidden: false
+  disabled: true
+device_tracker.iphone_46:
+  hidden: true
+sensor.iphone_46_battery_level:
+  hidden: true
+sensor.iphone_46_battery_state:
+  hidden: true
+sensor.iphone_46_storage:
+  hidden: true
+sensor.iphone_46_ssid:
+  hidden: true
+sensor.iphone_46_bssid:
+  hidden: true
+sensor.iphone_46_connection_type:
+  hidden: true
+sensor.iphone_46_sim_1:
+  hidden: true
+sensor.iphone_46_sim_2:
+  hidden: true
+sensor.iphone_46_last_update_trigger:
+  hidden: true
+sensor.iphone_46_geocoded_location:
+  hidden: true
+sensor.iphone_46_activity:
+  hidden: true
+sensor.iphone_46_distance:
+  hidden: true
+sensor.iphone_46_floors_ascended:
+  hidden: true
+sensor.iphone_46_floors_descended:
+  hidden: true
+sensor.iphone_46_average_active_pace:
+  hidden: true
+sensor.iphone_46_steps:
+  hidden: true
+binary_sensor.iphone_46_focus:
+  hidden: true
+sensor.firetab1_battery_power:
+  hidden: true
+device_tracker.josh_iphone_3:
+  hidden: true
+sensor.josh_iphone_battery_state_3:
+  hidden: true
+sensor.katya_iphone_battery_state_2:
+  hidden: true
+device_tracker.katya_iphone:
+  hidden: true
+binary_sensor.hub_myq_gateway:
+  hidden: true
+input_boolean.garage_open:
+  hidden: true
+cover.garage_door:
+  custom_card: true
+binary_sensor.front_door_ding:
+  hidden: true
+binary_sensor.front_door_motion:
+  hidden: true
+binary_sensor.living_room_cam_motion:
+  hidden: true
+sensor.front_door_battery:
+  hidden: true
+sensor.front_door_last_activity:
+  hidden: true
+sensor.front_door_last_ding:
+  hidden: true
+sensor.front_door_last_motion:
+  hidden: true
+sensor.front_door_volume:
+  hidden: true
+sensor.living_room_cam_battery:
+  hidden: true
+sensor.living_room_cam_last_activity:
+  hidden: true
+sensor.living_room_cam_last_motion:
+  hidden: true
+sensor.living_room_cam_volume:
+  hidden: true
+camera.front_door:
+  hidden: false
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '2'
+  col_span_lg: '3'
+  row_span_lg: '3'
+  col_span_xl: '2'
+  row_span_xl: '2'
+  custom_card: false
+  custom_popup: false
+camera.living_room_cam:
+  hidden: true
+switch.living_room_cam_siren:
+  hidden: true
+sensor.antioch_alarm_info:
+  hidden: true
+binary_sensor.antioch_alarm_tamper:
+  hidden: true
+alarm_control_panel.antioch_alarm:
+  hidden: true
+switch.antioch_siren:
+  hidden: true
+switch.antioch_arming_bypass_mode:
+  hidden: true
+sensor.antioch_base_station_info:
+  hidden: true
+binary_sensor.antioch_base_station_tamper:
+  hidden: true
+sensor.antioch_base_station_wireless:
+  hidden: true
+sensor.josh_motion_sensor_info:
+  hidden: true
+sensor.josh_motion_sensor_battery:
+  hidden: true
+binary_sensor.josh_motion_sensor_tamper:
+  hidden: true
+binary_sensor.josh_motion_sensor:
+  hidden: true
+sensor.antioch_range_extender_info:
+  hidden: true
+sensor.antioch_range_extender_battery:
+  hidden: true
+binary_sensor.antioch_range_extender_tamper:
+  hidden: true
+sensor.keypad_info:
+  hidden: true
+sensor.keypad_battery:
+  hidden: true
+binary_sensor.keypad_tamper:
+  hidden: true
+number.keypad_volume:
+  hidden: true
+binary_sensor.front_door_motion_2:
+  hidden: true
+switch.front_door_live_stream:
+  hidden: true
+switch.front_door_event_stream:
+  hidden: true
+select.front_door_event_select:
+  hidden: true
+binary_sensor.front_door_ding_2:
+  hidden: true
+camera.front_door_snapshot:
+  hidden: true
+number.front_door_snapshot_interval:
+  hidden: true
+sensor.front_door_info_2:
+  hidden: true
+sensor.front_door_wireless:
+  hidden: true
+sensor.front_door_battery_3:
+  hidden: true
+binary_sensor.living_room_cam_motion_2:
+  hidden: true
+switch.living_room_cam_live_stream:
+  hidden: true
+switch.living_room_cam_event_stream:
+  hidden: true
+select.living_room_cam_event_select:
+  hidden: true
+switch.living_room_cam_siren_2:
+  hidden: true
+camera.living_room_cam_snapshot:
+  hidden: true
+number.living_room_cam_snapshot_interval:
+  hidden: true
+sensor.living_room_cam_info:
+  hidden: true
+sensor.living_room_cam_wireless:
+  hidden: true
+sensor.living_room_cam_battery_2:
+  hidden: true
+number.antioch_base_station_volume:
+  hidden: true
+select.josh_motion_sensor_bypass_mode:
+  hidden: true
+select.front_door_snapshot_mode:
+  hidden: true
+select.living_room_cam_snapshot_mode:
+  hidden: true
+binary_sensor.keypad_motion:
+  hidden: true
+number.front_door_motion_duration:
+  hidden: true
+number.front_door_ding_duration:
+  hidden: true
+number.living_room_cam_motion_duration:
+  hidden: true
+switch.front_door_motion_detection:
+  hidden: false
+  disabled: true
+switch.living_room_cam_motion_detection:
+  hidden: false
+  disabled: true
+switch.chirps:
+  hidden: true
+button.take_snapshot:
+  hidden: true
+button.take_snapshot_2:
+  hidden: true
+select.chirp_tone:
+  hidden: true
+remote.living_room_atv:
+  hidden: true
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '3'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_card: true
+  custom_popup: false
+  sort_order: 4
+media_player.living_room_atv:
+  hidden: true
+k7r:
+  sort_order: 1
+eml:
+  sort_order: 2
+emn:
+  sort_order: 3
+epv:
+  sort_order: 4
+f7z:
+  sort_order: 5
+n2k:
+  sort_order: 6
+ey5:
+  sort_order: 7
+gns:
+  sort_order: 8
+hsw:
+  sort_order: 9
+e78:
+  sort_order: 10
+ejj:
+  sort_order: 11
+ej2:
+  sort_order: 12
+eqn:
+  sort_order: 13
+f3s:
+  sort_order: 14
+erz:
+  sort_order: 15
+sensor.snake_plant_moisture:
+  hidden: true
+sensor.money_tree_illuminance:
+  hidden: true
+sensor.money_tree_conductivity:
+  hidden: true
+sensor.money_tree_temperature:
+  hidden: true
+number.snake_plant_max_soil_moisture:
+  hidden: true
+number.snake_plant_min_soil_moisture:
+  hidden: true
+number.snake_plant_max_temperature:
+  hidden: true
+number.snake_plant_min_temperature:
+  hidden: true
+number.snake_plant_max_illuminance:
+  hidden: true
+number.snake_plant_min_illuminance:
+  hidden: true
+number.snake_plant_max_conductivity:
+  hidden: true
+number.snake_plant_min_conductivity:
+  hidden: true
+plant.snake_plant:
+  hidden: false
+  grouped_sort_order: 1
+  custom_card: true
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '3'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_popup: false
+plant.money_tree:
+  hidden: false
+  grouped_sort_order: 2
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '1'
+  col_span_lg: '3'
+  row_span_lg: '1'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_card: true
+  custom_popup: false
+number.money_tree_max_air_humidity:
+  hidden: true
+number.money_tree_max_illuminance:
+  hidden: true
+number.money_tree_max_soil_moisture:
+  hidden: true
+number.snake_plant_max_air_humidity:
+  hidden: true
+number.snake_plant_min_air_humidity:
+  hidden: true
+number.snake_plant_max_dli:
+  hidden: true
+number.snake_plant_min_dli:
+  hidden: true
+number.money_tree_min_soil_moisture:
+  hidden: true
+number.money_tree_min_conductivity:
+  hidden: true
+sensor.snake_plant_illuminance_2:
+  hidden: true
+sensor.snake_plant_soil_moisture:
+  hidden: true
+number.money_tree_max_conductivity:
+  hidden: true
+sensor.money_tree_soil_moisture:
+  hidden: true
+sensor.money_tree_dli:
+  hidden: true
+number.money_tree_max_temperature:
+  hidden: true
+number.money_tree_min_illuminance:
+  hidden: true
+number.money_tree_min_air_humidity:
+  hidden: true
+number.money_tree_min_temperature:
+  hidden: true
+number.money_tree_min_dli:
+  hidden: true
+sensor.money_tree_air_humidity:
+  hidden: true
+number.money_tree_max_dli:
+  hidden: true
+sensor.snake_plant_conductivity_2:
+  hidden: true
+sensor.snake_plant_temperature_2:
+  hidden: true
+sensor.snake_plant_air_humidity:
+  hidden: true
+sensor.snake_plant_dli:
+  hidden: true
+device_tracker.roborock_2:
+  hidden: true
+image.roborock_s4:
+  hidden: true
+binary_sensor.roborock_s4_cleaning:
+  hidden: true
+sensor.wake_up_light_instantaneous_demand:
+  hidden: true
+update.wake_up_light_firmware:
+  hidden: true
+sensor.wake_up_light_summation_delivered:
+  hidden: true
+number.wake_up_light_start_up_color_temperature:
+  hidden: true
+button.wake_up_light_identify:
+  hidden: true
+media_player.master_tv_vizio_2:
+  hidden: true
+number.wake_up_light_start_up_current_level:
+  hidden: true
+media_player.bedroom:
+  hidden: true
+number.wake_up_light_on_level:
+  hidden: true
+remote.bedroom:
+  hidden: true
+select.roborock_s4_selected_map:
+  hidden: true
+device_tracker.couch_lamp_switch:
+  hidden: true
+device_tracker.android_dhcp_9_2:
+  hidden: true
+device_tracker.sonoszp:
+  hidden: true
+device_tracker.tv_lamp_switch:
+  hidden: true
+binary_sensor.couch_lamp_cloud_connection:
+  hidden: true
+binary_sensor.tv_lamp_cloud_connection:
+  hidden: true
+device_tracker.living_room_apple_tv:
+  hidden: true
+media_player.kitchen:
+  hidden: true
+remote.kitchen:
+  hidden: true
+remote.office:
+  hidden: true
+media_player.office:
+  hidden: true
+binary_sensor.wolf_lamp_cloud_connection:
+  hidden: true
+device_tracker.wolf_lamp_switch_2:
+  hidden: true
+button.h607c_1e92_request_platform_api_state:
+  hidden: true
+light.stick_light_segment_002:
+  hidden: true
+light.stick_light_segment_003:
+  hidden: true
+light.stick_light_segment_013:
+  hidden: true
+light.stick_light_segment_015:
+  hidden: true
+light.stick_light_segment_016:
+  hidden: true
+light.stick_light_segment_010:
+  hidden: true
+light.stick_light_segment_006:
+  hidden: true
+light.stick_light_segment_005:
+  hidden: true
+light.stick_light_segment_004:
+  hidden: true
+light.stick_light_segment_008:
+  hidden: true
+light.stick_light_segment_011:
+  hidden: true
+switch.stick_light_dream_view_toggle:
+  hidden: true
+switch.stick_light_gradient_toggle:
+  hidden: true
+sensor.h607c_1e92_status:
+  hidden: true
+light.stick_light_segment_007:
+  hidden: true
+light.stick_light_segment_009:
+  hidden: true
+light.stick_light_segment_001:
+  hidden: true
+switch.stick_light_power_switch:
+  hidden: true
+light.stick_light_segment_014:
+  hidden: true
+light.stick_light_segment_012:
+  hidden: true
+light.h607c_1e92:
+  hidden: true
+light.neo_3:
+  hidden: true
+button.kitchen_overhead_1_request_platform_api_state:
+  hidden: true
+button.kitchen_overhead_2_request_platform_api_state:
+  hidden: true
+button.dining_lamp_2_request_platform_api_state:
+  hidden: true
+button.dining_overhead_1_request_platform_api_state:
+  hidden: true
+button.dining_overhead_2_request_platform_api_state:
+  hidden: true
+sensor.h6008_1a36_status:
+  hidden: true
+sensor.dining_lamp_1_status:
+  hidden: true
+button.dining_lamp_1_request_platform_api_state:
+  excluded: true
+  hidden: true
+button.pantry_2_request_platform_api_state:
+  hidden: true
+button.pantry_1_request_platform_api_state:
+  hidden: true
+button.h6008_1a36_request_platform_api_state:
+  hidden: true
+switch.dining_lamp_3_1_power_switch:
+  hidden: true
+switch.pantry_1_power_switch:
+  hidden: true
+light.kitchen_overhead_1:
+  hidden: true
+light.kitchen_overhead_2:
+  hidden: true
+light.dining_lamp_2:
+  hidden: true
+light.dining_overhead_1:
+  hidden: true
+light.dining_overhead_2:
+  hidden: true
+light.pantry_2:
+  hidden: true
+light.pantry_1:
+  hidden: true
+light.dining_lamp_1:
+  hidden: true
+light.dining_lamp_3_1:
+  hidden: true
+sensor.kitchen_overhead_1_status:
+  disabled: true
+sensor.kitchen_overhead_2_status:
+  hidden: true
+sensor.dining_lamp_2_status:
+  hidden: true
+sensor.dining_overhead_1_status:
+  hidden: true
+sensor.dining_overhead_2_status:
+  hidden: true
+sensor.pantry_2_status:
+  hidden: true
+sensor.pantry_1_status:
+  hidden: true
+switch.kitchen_overhead_1_power_switch:
+  hidden: true
+switch.kitchen_overhead_2_power_switch:
+  hidden: true
+switch.dining_lamp_2_power_switch:
+  hidden: true
+switch.dining_overhead_1_power_switch:
+  hidden: true
+switch.dining_overhead_2_power_switch:
+  hidden: true
+switch.pantry_2_power_switch:
+  hidden: true
+switch.dining_lamp_1_power_switch:
+  hidden: true
+image.roborock_s4_map_0:
+  hidden: true
+sensor.roborock_s4_total_cleaning_count:
+  hidden: true

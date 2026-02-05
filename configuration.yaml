@@ -1,0 +1,55 @@
+homeassistant:
+  packages: !include_dir_named packages
+  
+  allowlist_external_dirs:
+    - /config/www/bubble
+
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+frontend:
+  themes: !include_dir_merge_named themes
+
+api:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor: !include sensors.yaml
+template: !include templates.yaml
+    
+withings:
+  use_webhook: true
+
+# Calendar
+
+calendar:
+  - platform: caldav
+    url: https://caldav.icloud.com
+    username: saethone@gmail.com
+    password: rscc-cbwa-rvcs-cwty
+    calendars:
+      - K&J Calendar
+  - platform: todoist
+    token: b680103c58f372699588a67e77d0344a9592e165
+
+# docker
+monitor_docker:
+  - name: Docker
+    url: tcp://192.168.50.7:2375
+
+# ProxMox
+proxmoxve:
+  - host: 192.168.50.4
+    username: homeassistant@pve
+    password: s@$6EA$mq#Y2hg
+    nodes:
+      - node: pve
+        vms:
+          - 100
+          - 101
